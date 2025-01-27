@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v10/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "default",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "sessions": {
+    "default": [
+      {
+        "name": "Common",
+        "icon": "bracket",
+        "color": "terminal.ansiGreen"
+      },
+      {
+        "name": "Github",
+        "icon": "github",
+        "color": "terminal.ansiGreen"
+      },
+      [
+        {
+          "name": "Server",
+          "commands": [""],
+          "color": "terminal.ansiGreen",
+          "icon": "server-environment"
+        },
+        {
+          "name": "Client",
+          "commands": [""],
+          "color": "terminal.ansiGreen",
+          "icon": "globe"
+        }
+      ]
+    ],
+    "saved-session": [
+      {
+        "name": "connect",
+        "commands": [""]
+      }
+    ]
+  }
+}
